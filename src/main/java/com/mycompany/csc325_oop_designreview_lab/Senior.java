@@ -29,6 +29,8 @@ public class Senior extends Student{
         if(credits >= 85) {
             System.out.println("Congratulations, senior " + getName() + " has "   + credits + " credits, these are " +
                     "more than the minimum required credits of " + minCredits + " to graduate!");
+        }else{
+            System.out.println("not enough credits");
         }
         return "Senior: " +
                 "Name = " + getName() +
